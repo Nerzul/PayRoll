@@ -1,10 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
-import java.io.*;
 import java.sql.*;
 import javax.swing.*;
-import java.util.*;
-import java.net.*;
 
 public class Addwindow extends JInternalFrame implements ActionListener  {
 
@@ -33,7 +30,7 @@ public class Addwindow extends JInternalFrame implements ActionListener  {
      
      // Class Variables
      
-     clsSettings settings = new clsSettings();
+     clsConfiguracio settings = new clsConfiguracio();
       clsConnection connect = new clsConnection();
       
       Connection conn;
